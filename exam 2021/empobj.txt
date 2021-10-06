@@ -1,0 +1,194 @@
+import java.io.*;
+
+import java.util.Scanner;
+
+class Person
+
+{
+
+String name;
+
+String gender;
+
+String address;
+
+int age;
+
+Person()
+
+{
+
+name="";
+
+gender="";
+
+address="";
+
+age=10;
+
+}
+
+void read()
+
+{
+ 
+Scanner sc= new Scanner();
+
+System.out.println("enter the name:");
+
+name=sc.nextLine();
+
+System.out.println("enter the gender:");
+
+gender=sc.nextLine();
+
+System.out.println("enter the address:");
+
+address=sc.nextLine();
+
+System.out.println("enter the age:");
+
+age=sc.nextInt();
+
+}
+
+void display()
+
+{
+
+System.out.println("name:"+name);
+
+System.out.println("gender:"+gender);
+
+System.out.println("address:"+address);
+
+System.out.println("age:"+age);
+
+}
+import java.util.Scanner;
+
+class Employee extends Person
+
+{
+
+String empid;
+
+String company_name;
+
+String Qual;
+
+int salary;
+
+Employee()
+
+{
+
+empid="";
+
+company_name="";
+
+qal="";
+
+salary="10";
+
+}
+
+void read()
+
+{
+
+System Scanner sc= new Scanner();
+
+System.out.println("enter the empid:");
+
+empid=sc.nextLine();
+
+System.out.println("enter company_name");
+
+company_name=sc.nextLine();
+
+System.out.println("enter the Qualification:");
+
+qal=sc.nextLine();
+
+System.out.println("enter the salary:");
+
+salary=sc.nextLine();
+
+}
+
+void display()
+
+{
+
+System.out.println("name:"+empid);
+
+System.out.println("gender:"+company_name);
+
+System.out.println("gender:"+qal);
+
+System.out.println("gender:"+salary);
+
+}
+
+public class Teacher extends Person
+
+{
+string dept;
+string sub;
+}
+void read()
+{
+super.read();
+Scanner sc=new scanner(system.in);
+System.out.println("enter department name:");
+dept=sc.nextLine();
+
+System.out.println("enter subject name:");
+sub=sc.nextLine();
+
+}
+void display()
+
+{
+
+System.out.println("name:"+dept);
+
+System.out.println("gender:"+sub);
+
+}
+class empobj
+
+{
+
+public static void main(String args[])
+
+{
+
+Teacher t[]=new Teacher();
+int i;
+
+for(i=o;i<2;i++)
+
+
+{
+
+
+t[i]=new teacher ()
+for(i=o;i<2;i++)
+
+{
+
+person obj[]=new person();
+
+obj.read();
+obj.display();
+}
+
+
+
+
+
+
+
+
